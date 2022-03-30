@@ -1,6 +1,6 @@
-@OpenRCM
-  Feature: RCMTestDemo
-    Scenario: Login to RCM HomePage
-      Given user is on RCM HomePage
-      When the user the user clicks on the log out link on the home page
-      Then the user should see the saved login time in database
+@OpenSauceDemo
+  Feature: SauceDemo
+    Scenario: Login to Sauce Demo HomePage
+      Given the user is on Sauce Demo Home Page
+      When the user clicks on the Sauce Labs Backpack ADD TO CART on the home page
+      Then the user should see the Sauce Labs Backpack added to the card
